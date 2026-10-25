@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    background-color: rgba(7, 255, 234, 0.726);
+    color:rgb(255, 6, 243)
+}
+#page-title { color: aquamarine;
+        margin: top 20px;
+        margin-left: 50px;
+        border: top 300px; ;
+        border: 500px;
+        border-color: color(from color srgb r g b);
+}
+.content-card { border-top-style: groove;
+        border-style: double;
+        border-radius: 15px;}
+p { font-style: normal;
+    font-family: cursive;
+    font-size: small;
+}
+h2 {color: rgb(217, 85, 188);
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: cursive;
+}
+h3 {border-color: aqua;
+    font-weight: 600;
+    font-size: medium;
+    font-family: cursive;
+} 
