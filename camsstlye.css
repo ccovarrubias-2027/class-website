@@ -1,112 +1,74 @@
-body {
-    margin: auto; 
-    padding: 5px; 
-    font-family: cursive;
-    background-color: aquamarine;
-    color-scheme: inherit;
-}
+body {margin: auto; padding: 5px; font-family: poppins
+;
+     background-color: aquamarine;
+    color-scheme: inherit;}
 
-.main-wrapper {
-    max-width: 1000px; 
+.main-wrapper {max-width: 1000px; 
     margin: auto; 
     padding: 15px;
     display: flex;
     flex-direction: column;
-    row-gap: 35px;
-}
+    column-gap: 35px;}
 
 .top-nav {
-    font-family: fantasy;
-    display: flex; 
+    display: flex; grid-auto-rows: max-content;
     justify-content: space-between;
-    align-items: center; 
-    border: 3px solid aqua;
-     border-radius: 5px;
-}
-
-.welcome-section {
-    border-color: rgb(47, 180, 6); 
-    background-color: rgba(0, 255, 102, 0.801);
+    align-items: center; border-width: thick; 
+    border-color: aqua; border-radius: 5px; border: 3px;}
+    
+.welcome-section {border-color: rgb(79, 240, 255); 
+    background-color: inherit;
     border-style: groove;
-    border-width: thick;
-}
+    border-width: thick}
 
-.reasons-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.reasons-grid {display: grid;
+    grid-template-columns: repeat( 3, 1fr);
     gap: 25px;
-    padding: 20px 0;
-}
+    padding: 20px 0;}
 
-.reasons-grid .reason-card:nth-child(2) {
-    transform: translateY(10px);
-}
-
-.kids-photo {
-    width: 172px; 
-    height: 223px; 
-    border-radius: 14px;
-    margin-top: 24px;
-    margin-left: 64x;
-}
-
-#page-title { 
-    color: blue;
-    margin-top: 20px;
-    margin-left: 50px;
-    border-top: 3px solid lightskyblue; 
-    border-bottom: 5px solid lightskyblue;
+.reasons-grid reason-card {:nth-child(2),
+        transform {translate: Y(px);}}
+    
+    .kids-photo{
+        width: 84px; height:115px; 
+        border-radius: 14px;
+        margin-top: 8px;
+        margin-left: 85px;
+    }
+        
+    #page-title { color: blue;margin: top 20;
+        margin-left: 50;
+        border: top 3; ;
+        border: 5;
+        border-color: lightskyblue;
 }
 .background-card { border-top-style: groove;
         border-style: double;
         border-inline-color: initial;
         border-radius: 6px; border-color: aqua; border-inline-color: initial;}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 p { font-style: normal;
-    font-family: sans-serif;
+    font-family:inherit
     font-size: small;
 }
 
-h2 {
-    color: rgb(217, 85, 188);
+h2 {color: inherit
     font-weight: bolder;
     font-size: 34px;
-    font-family: cursive;
-    border-width: 50px 25px 50px 25px; }
-
-h3 {
-    border-color: aqua;
+    border-width: 50px, 25px, 50px, 25px;
+}
+h3 {border-color: aqua;
     font-weight: 600;
     font-size: medium;
     color-scheme: initial;
-}
-
-.reason-section h2 {
-    font-style: oblique;
-    text-align: center; 
-}
-
-.reasons-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-     gap: 24px;
-    padding: 16px 0;
-}
-
-@media screen and (min-width: 768px) {
-    body {
-        font-size: 18px;
-    }
-    .reasons-grid {
-        grid-template-columns: repeat(2, 1fr);  
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    body {
-        font-size: 22px;
-    }
-    .reasons-grid {
-        grid-template-columns: repeat(3, 1fr); 
-    }
+} 
+.reason-section h2 {font-style: oblique;
+align-content: center;}
+@media screen and (min-width: 780px) {font-size: 22px;
+    
 }
